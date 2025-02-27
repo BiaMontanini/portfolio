@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
     // Carregar o modal de outro arquivo HTML
-    fetch("./html/modal.html")
+    fetch("https://biamontanini.github.io/portfolio/html/modal.html")
         .then((response) => response.text())
         .then((data) => {
             document.body.insertAdjacentHTML("beforeend", data);
