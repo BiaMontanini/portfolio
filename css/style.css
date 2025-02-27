@@ -324,6 +324,28 @@ p {
 }
 .projeto-pessoal p{
   color: #2f2f2f;
+  margin-bottom: 1rem;
+}
+
+.projeto-pessoal a {
+  padding: 0.6rem 3rem;
+  cursor: pointer;
+  border-width: 1.5px;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
+  background-color: #d222a8;
+  color: white;
+  display: flex;
+  margin-top: 1rem;
+  flex-direction: column;
+  align-self: left;
+  justify-self: left;
+  text-decoration: none;
+  text-align: center;
+  border: solid white;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 13.333px;
 }
 /* ==========================
      Elementos Gráficos
